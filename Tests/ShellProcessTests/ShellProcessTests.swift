@@ -1,5 +1,5 @@
 import XCTest
-@testable import ShellProcess
+@testable import ShellProcess_swift
 
 final class ShellProcessTests: XCTestCase {
     func testExample() {
