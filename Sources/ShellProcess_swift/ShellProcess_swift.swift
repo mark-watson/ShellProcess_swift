@@ -15,7 +15,7 @@ public func run_in_shell(commandPath: String, argList: [String] = []) -> String 
         if let output = output {
           if !output.isEmpty {
             return output.trimmingCharacters(in: .whitespacesAndNewlines)
-            }
+          }
         }
     }
     return ""
